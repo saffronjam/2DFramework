@@ -1,0 +1,5 @@
+/home/viesa/repos/V-2DFramework/build/CMakeFiles/edit_cache.dir
+/home/viesa/repos/V-2DFramework/build/CMakeFiles/package_source.dir
+/home/viesa/repos/V-2DFramework/build/CMakeFiles/V-Engine2D.dir
+/home/viesa/repos/V-2DFramework/build/CMakeFiles/rebuild_cache.dir
+/home/viesa/repos/V-2DFramework/build/CMakeFiles/package.dir
