@@ -83,9 +83,22 @@ CMakeFiles/V-Engine2D.dir/src/apps/App.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/V-Engine2D.dir/src/apps/App.cpp.s"
 	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viesa/repos/V-2DFramework/src/apps/App.cpp -o CMakeFiles/V-Engine2D.dir/src/apps/App.cpp.s
 
+CMakeFiles/V-Engine2D.dir/src/core/Draw.cpp.o: CMakeFiles/V-Engine2D.dir/flags.make
+CMakeFiles/V-Engine2D.dir/src/core/Draw.cpp.o: ../src/core/Draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/V-Engine2D.dir/src/core/Draw.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/V-Engine2D.dir/src/core/Draw.cpp.o -c /home/viesa/repos/V-2DFramework/src/core/Draw.cpp
+
+CMakeFiles/V-Engine2D.dir/src/core/Draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/V-Engine2D.dir/src/core/Draw.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/viesa/repos/V-2DFramework/src/core/Draw.cpp > CMakeFiles/V-Engine2D.dir/src/core/Draw.cpp.i
+
+CMakeFiles/V-Engine2D.dir/src/core/Draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/V-Engine2D.dir/src/core/Draw.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viesa/repos/V-2DFramework/src/core/Draw.cpp -o CMakeFiles/V-Engine2D.dir/src/core/Draw.cpp.s
+
 CMakeFiles/V-Engine2D.dir/src/core/EventMgr.cpp.o: CMakeFiles/V-Engine2D.dir/flags.make
 CMakeFiles/V-Engine2D.dir/src/core/EventMgr.cpp.o: ../src/core/EventMgr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/V-Engine2D.dir/src/core/EventMgr.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/V-Engine2D.dir/src/core/EventMgr.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/V-Engine2D.dir/src/core/EventMgr.cpp.o -c /home/viesa/repos/V-2DFramework/src/core/EventMgr.cpp
 
 CMakeFiles/V-Engine2D.dir/src/core/EventMgr.cpp.i: cmake_force
@@ -98,7 +111,7 @@ CMakeFiles/V-Engine2D.dir/src/core/EventMgr.cpp.s: cmake_force
 
 CMakeFiles/V-Engine2D.dir/src/core/Keyboard.cpp.o: CMakeFiles/V-Engine2D.dir/flags.make
 CMakeFiles/V-Engine2D.dir/src/core/Keyboard.cpp.o: ../src/core/Keyboard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/V-Engine2D.dir/src/core/Keyboard.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/V-Engine2D.dir/src/core/Keyboard.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/V-Engine2D.dir/src/core/Keyboard.cpp.o -c /home/viesa/repos/V-2DFramework/src/core/Keyboard.cpp
 
 CMakeFiles/V-Engine2D.dir/src/core/Keyboard.cpp.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/V-Engine2D.dir/src/core/Keyboard.cpp.s: cmake_force
 
 CMakeFiles/V-Engine2D.dir/src/core/Log.cpp.o: CMakeFiles/V-Engine2D.dir/flags.make
 CMakeFiles/V-Engine2D.dir/src/core/Log.cpp.o: ../src/core/Log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/V-Engine2D.dir/src/core/Log.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/V-Engine2D.dir/src/core/Log.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/V-Engine2D.dir/src/core/Log.cpp.o -c /home/viesa/repos/V-2DFramework/src/core/Log.cpp
 
 CMakeFiles/V-Engine2D.dir/src/core/Log.cpp.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/V-Engine2D.dir/src/core/Log.cpp.s: cmake_force
 
 CMakeFiles/V-Engine2D.dir/src/core/Mouse.cpp.o: CMakeFiles/V-Engine2D.dir/flags.make
 CMakeFiles/V-Engine2D.dir/src/core/Mouse.cpp.o: ../src/core/Mouse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/V-Engine2D.dir/src/core/Mouse.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/V-Engine2D.dir/src/core/Mouse.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/V-Engine2D.dir/src/core/Mouse.cpp.o -c /home/viesa/repos/V-2DFramework/src/core/Mouse.cpp
 
 CMakeFiles/V-Engine2D.dir/src/core/Mouse.cpp.i: cmake_force
@@ -137,7 +150,7 @@ CMakeFiles/V-Engine2D.dir/src/core/Mouse.cpp.s: cmake_force
 
 CMakeFiles/V-Engine2D.dir/src/core/ScreenList.cpp.o: CMakeFiles/V-Engine2D.dir/flags.make
 CMakeFiles/V-Engine2D.dir/src/core/ScreenList.cpp.o: ../src/core/ScreenList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/V-Engine2D.dir/src/core/ScreenList.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/V-Engine2D.dir/src/core/ScreenList.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/V-Engine2D.dir/src/core/ScreenList.cpp.o -c /home/viesa/repos/V-2DFramework/src/core/ScreenList.cpp
 
 CMakeFiles/V-Engine2D.dir/src/core/ScreenList.cpp.i: cmake_force
@@ -148,9 +161,22 @@ CMakeFiles/V-Engine2D.dir/src/core/ScreenList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/V-Engine2D.dir/src/core/ScreenList.cpp.s"
 	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viesa/repos/V-2DFramework/src/core/ScreenList.cpp -o CMakeFiles/V-Engine2D.dir/src/core/ScreenList.cpp.s
 
+CMakeFiles/V-Engine2D.dir/src/core/TextureMgr.cpp.o: CMakeFiles/V-Engine2D.dir/flags.make
+CMakeFiles/V-Engine2D.dir/src/core/TextureMgr.cpp.o: ../src/core/TextureMgr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/V-Engine2D.dir/src/core/TextureMgr.cpp.o"
+	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/V-Engine2D.dir/src/core/TextureMgr.cpp.o -c /home/viesa/repos/V-2DFramework/src/core/TextureMgr.cpp
+
+CMakeFiles/V-Engine2D.dir/src/core/TextureMgr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/V-Engine2D.dir/src/core/TextureMgr.cpp.i"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/viesa/repos/V-2DFramework/src/core/TextureMgr.cpp > CMakeFiles/V-Engine2D.dir/src/core/TextureMgr.cpp.i
+
+CMakeFiles/V-Engine2D.dir/src/core/TextureMgr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/V-Engine2D.dir/src/core/TextureMgr.cpp.s"
+	/bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/viesa/repos/V-2DFramework/src/core/TextureMgr.cpp -o CMakeFiles/V-Engine2D.dir/src/core/TextureMgr.cpp.s
+
 CMakeFiles/V-Engine2D.dir/src/core/VeException.cpp.o: CMakeFiles/V-Engine2D.dir/flags.make
 CMakeFiles/V-Engine2D.dir/src/core/VeException.cpp.o: ../src/core/VeException.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/V-Engine2D.dir/src/core/VeException.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/V-Engine2D.dir/src/core/VeException.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/V-Engine2D.dir/src/core/VeException.cpp.o -c /home/viesa/repos/V-2DFramework/src/core/VeException.cpp
 
 CMakeFiles/V-Engine2D.dir/src/core/VeException.cpp.i: cmake_force
@@ -163,7 +189,7 @@ CMakeFiles/V-Engine2D.dir/src/core/VeException.cpp.s: cmake_force
 
 CMakeFiles/V-Engine2D.dir/src/core/Window.cpp.o: CMakeFiles/V-Engine2D.dir/flags.make
 CMakeFiles/V-Engine2D.dir/src/core/Window.cpp.o: ../src/core/Window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/V-Engine2D.dir/src/core/Window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/V-Engine2D.dir/src/core/Window.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/V-Engine2D.dir/src/core/Window.cpp.o -c /home/viesa/repos/V-2DFramework/src/core/Window.cpp
 
 CMakeFiles/V-Engine2D.dir/src/core/Window.cpp.i: cmake_force
@@ -176,7 +202,7 @@ CMakeFiles/V-Engine2D.dir/src/core/Window.cpp.s: cmake_force
 
 CMakeFiles/V-Engine2D.dir/src/interfaces/IApp.cpp.o: CMakeFiles/V-Engine2D.dir/flags.make
 CMakeFiles/V-Engine2D.dir/src/interfaces/IApp.cpp.o: ../src/interfaces/IApp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/V-Engine2D.dir/src/interfaces/IApp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/V-Engine2D.dir/src/interfaces/IApp.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/V-Engine2D.dir/src/interfaces/IApp.cpp.o -c /home/viesa/repos/V-2DFramework/src/interfaces/IApp.cpp
 
 CMakeFiles/V-Engine2D.dir/src/interfaces/IApp.cpp.i: cmake_force
@@ -189,7 +215,7 @@ CMakeFiles/V-Engine2D.dir/src/interfaces/IApp.cpp.s: cmake_force
 
 CMakeFiles/V-Engine2D.dir/src/screens/GameplayScreen.cpp.o: CMakeFiles/V-Engine2D.dir/flags.make
 CMakeFiles/V-Engine2D.dir/src/screens/GameplayScreen.cpp.o: ../src/screens/GameplayScreen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/V-Engine2D.dir/src/screens/GameplayScreen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/V-Engine2D.dir/src/screens/GameplayScreen.cpp.o"
 	/bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/V-Engine2D.dir/src/screens/GameplayScreen.cpp.o -c /home/viesa/repos/V-2DFramework/src/screens/GameplayScreen.cpp
 
 CMakeFiles/V-Engine2D.dir/src/screens/GameplayScreen.cpp.i: cmake_force
@@ -204,11 +230,13 @@ CMakeFiles/V-Engine2D.dir/src/screens/GameplayScreen.cpp.s: cmake_force
 V__Engine2D_OBJECTS = \
 "CMakeFiles/V-Engine2D.dir/src/MainWin.cpp.o" \
 "CMakeFiles/V-Engine2D.dir/src/apps/App.cpp.o" \
+"CMakeFiles/V-Engine2D.dir/src/core/Draw.cpp.o" \
 "CMakeFiles/V-Engine2D.dir/src/core/EventMgr.cpp.o" \
 "CMakeFiles/V-Engine2D.dir/src/core/Keyboard.cpp.o" \
 "CMakeFiles/V-Engine2D.dir/src/core/Log.cpp.o" \
 "CMakeFiles/V-Engine2D.dir/src/core/Mouse.cpp.o" \
 "CMakeFiles/V-Engine2D.dir/src/core/ScreenList.cpp.o" \
+"CMakeFiles/V-Engine2D.dir/src/core/TextureMgr.cpp.o" \
 "CMakeFiles/V-Engine2D.dir/src/core/VeException.cpp.o" \
 "CMakeFiles/V-Engine2D.dir/src/core/Window.cpp.o" \
 "CMakeFiles/V-Engine2D.dir/src/interfaces/IApp.cpp.o" \
@@ -219,30 +247,25 @@ V__Engine2D_EXTERNAL_OBJECTS =
 
 V-Engine2D: CMakeFiles/V-Engine2D.dir/src/MainWin.cpp.o
 V-Engine2D: CMakeFiles/V-Engine2D.dir/src/apps/App.cpp.o
+V-Engine2D: CMakeFiles/V-Engine2D.dir/src/core/Draw.cpp.o
 V-Engine2D: CMakeFiles/V-Engine2D.dir/src/core/EventMgr.cpp.o
 V-Engine2D: CMakeFiles/V-Engine2D.dir/src/core/Keyboard.cpp.o
 V-Engine2D: CMakeFiles/V-Engine2D.dir/src/core/Log.cpp.o
 V-Engine2D: CMakeFiles/V-Engine2D.dir/src/core/Mouse.cpp.o
 V-Engine2D: CMakeFiles/V-Engine2D.dir/src/core/ScreenList.cpp.o
+V-Engine2D: CMakeFiles/V-Engine2D.dir/src/core/TextureMgr.cpp.o
 V-Engine2D: CMakeFiles/V-Engine2D.dir/src/core/VeException.cpp.o
 V-Engine2D: CMakeFiles/V-Engine2D.dir/src/core/Window.cpp.o
 V-Engine2D: CMakeFiles/V-Engine2D.dir/src/interfaces/IApp.cpp.o
 V-Engine2D: CMakeFiles/V-Engine2D.dir/src/screens/GameplayScreen.cpp.o
 V-Engine2D: CMakeFiles/V-Engine2D.dir/build.make
-V-Engine2D: /usr/lib/x86_64-linux-gnu/libSDL2main.a
-V-Engine2D: /usr/lib/x86_64-linux-gnu/libSDL2.so
-V-Engine2D: /usr/lib/x86_64-linux-gnu/libSDL2_image.so
-V-Engine2D: /usr/lib/x86_64-linux-gnu/libSDL2_mixer.so
-V-Engine2D: /usr/lib/x86_64-linux-gnu/libSDL2_net.so
-V-Engine2D: /usr/lib/x86_64-linux-gnu/libSDL2_ttf.so
-V-Engine2D: /usr/lib/x86_64-linux-gnu/libSDL2main.a
-V-Engine2D: /usr/lib/x86_64-linux-gnu/libSDL2.so
-V-Engine2D: /usr/lib/x86_64-linux-gnu/libSDL2_net.so
-V-Engine2D: /usr/lib/x86_64-linux-gnu/libSDL2_image.so
-V-Engine2D: /usr/lib/x86_64-linux-gnu/libSDL2_mixer.so
-V-Engine2D: /usr/lib/x86_64-linux-gnu/libSDL2_ttf.so
+V-Engine2D: /usr/lib/x86_64-linux-gnu/libsfml-network.so
+V-Engine2D: /usr/lib/x86_64-linux-gnu/libsfml-audio.so
+V-Engine2D: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so
+V-Engine2D: /usr/lib/x86_64-linux-gnu/libsfml-window.so
+V-Engine2D: /usr/lib/x86_64-linux-gnu/libsfml-system.so
 V-Engine2D: CMakeFiles/V-Engine2D.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable V-Engine2D"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/viesa/repos/V-2DFramework/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable V-Engine2D"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/V-Engine2D.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -199,6 +199,33 @@ src/apps/App.cpp.s:
 	$(MAKE) -f CMakeFiles/V-Engine2D.dir/build.make CMakeFiles/V-Engine2D.dir/src/apps/App.cpp.s
 .PHONY : src/apps/App.cpp.s
 
+src/core/Draw.o: src/core/Draw.cpp.o
+
+.PHONY : src/core/Draw.o
+
+# target to build an object file
+src/core/Draw.cpp.o:
+	$(MAKE) -f CMakeFiles/V-Engine2D.dir/build.make CMakeFiles/V-Engine2D.dir/src/core/Draw.cpp.o
+.PHONY : src/core/Draw.cpp.o
+
+src/core/Draw.i: src/core/Draw.cpp.i
+
+.PHONY : src/core/Draw.i
+
+# target to preprocess a source file
+src/core/Draw.cpp.i:
+	$(MAKE) -f CMakeFiles/V-Engine2D.dir/build.make CMakeFiles/V-Engine2D.dir/src/core/Draw.cpp.i
+.PHONY : src/core/Draw.cpp.i
+
+src/core/Draw.s: src/core/Draw.cpp.s
+
+.PHONY : src/core/Draw.s
+
+# target to generate assembly for a file
+src/core/Draw.cpp.s:
+	$(MAKE) -f CMakeFiles/V-Engine2D.dir/build.make CMakeFiles/V-Engine2D.dir/src/core/Draw.cpp.s
+.PHONY : src/core/Draw.cpp.s
+
 src/core/EventMgr.o: src/core/EventMgr.cpp.o
 
 .PHONY : src/core/EventMgr.o
@@ -334,6 +361,33 @@ src/core/ScreenList.cpp.s:
 	$(MAKE) -f CMakeFiles/V-Engine2D.dir/build.make CMakeFiles/V-Engine2D.dir/src/core/ScreenList.cpp.s
 .PHONY : src/core/ScreenList.cpp.s
 
+src/core/TextureMgr.o: src/core/TextureMgr.cpp.o
+
+.PHONY : src/core/TextureMgr.o
+
+# target to build an object file
+src/core/TextureMgr.cpp.o:
+	$(MAKE) -f CMakeFiles/V-Engine2D.dir/build.make CMakeFiles/V-Engine2D.dir/src/core/TextureMgr.cpp.o
+.PHONY : src/core/TextureMgr.cpp.o
+
+src/core/TextureMgr.i: src/core/TextureMgr.cpp.i
+
+.PHONY : src/core/TextureMgr.i
+
+# target to preprocess a source file
+src/core/TextureMgr.cpp.i:
+	$(MAKE) -f CMakeFiles/V-Engine2D.dir/build.make CMakeFiles/V-Engine2D.dir/src/core/TextureMgr.cpp.i
+.PHONY : src/core/TextureMgr.cpp.i
+
+src/core/TextureMgr.s: src/core/TextureMgr.cpp.s
+
+.PHONY : src/core/TextureMgr.s
+
+# target to generate assembly for a file
+src/core/TextureMgr.cpp.s:
+	$(MAKE) -f CMakeFiles/V-Engine2D.dir/build.make CMakeFiles/V-Engine2D.dir/src/core/TextureMgr.cpp.s
+.PHONY : src/core/TextureMgr.cpp.s
+
 src/core/VeException.o: src/core/VeException.cpp.o
 
 .PHONY : src/core/VeException.o
@@ -459,6 +513,9 @@ help:
 	@echo "... src/apps/App.o"
 	@echo "... src/apps/App.i"
 	@echo "... src/apps/App.s"
+	@echo "... src/core/Draw.o"
+	@echo "... src/core/Draw.i"
+	@echo "... src/core/Draw.s"
 	@echo "... src/core/EventMgr.o"
 	@echo "... src/core/EventMgr.i"
 	@echo "... src/core/EventMgr.s"
@@ -474,6 +531,9 @@ help:
 	@echo "... src/core/ScreenList.o"
 	@echo "... src/core/ScreenList.i"
 	@echo "... src/core/ScreenList.s"
+	@echo "... src/core/TextureMgr.o"
+	@echo "... src/core/TextureMgr.i"
+	@echo "... src/core/TextureMgr.s"
 	@echo "... src/core/VeException.o"
 	@echo "... src/core/VeException.i"
 	@echo "... src/core/VeException.s"

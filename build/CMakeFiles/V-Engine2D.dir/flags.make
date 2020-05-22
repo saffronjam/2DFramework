@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++2a
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/viesa/repos/V-2DFramework/src -I/home/viesa/repos/V-2DFramework/src/apps -I/home/viesa/repos/V-2DFramework/src/core -I/home/viesa/repos/V-2DFramework/src/interfaces -I/home/viesa/repos/V-2DFramework/src/screens -I/home/viesa/repos/V-2DFramework/src/throwmacros -I/home/viesa/repos/V-2DFramework/deps/SDL_FontCache -I/usr/include/SDL2 
+CXX_INCLUDES = -I/home/viesa/repos/V-2DFramework/src -I/home/viesa/repos/V-2DFramework/src/apps -I/home/viesa/repos/V-2DFramework/src/core -I/home/viesa/repos/V-2DFramework/src/interfaces -I/home/viesa/repos/V-2DFramework/src/screens -I/home/viesa/repos/V-2DFramework/src/primitives -I/home/viesa/repos/V-2DFramework/src/throwmacros 
 
