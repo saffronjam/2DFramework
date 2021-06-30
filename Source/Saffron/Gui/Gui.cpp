@@ -14,7 +14,7 @@ static int s_UIContextID = 0;
 
 Gui::Gui() :
 	SingleTon(this)
-{
+{	
 	// Setup Dear ImGui context
 	IMGUI_CHECKVERSION();
 	ImGui::CreateContext();

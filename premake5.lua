@@ -49,7 +49,7 @@ project (module.Project)
 	targetdir (_MAIN_SCRIPT_DIR .. "/Build/Bin/" .. OutputDirectory .. "%{prj.name}")
 	objdir (_MAIN_SCRIPT_DIR .. "/Build/Obj/" .. OutputDirectory .. "%{prj.name}")
 
-    location "Build"
+    location (_MAIN_SCRIPT_DIR .. "/Build")
 
     files {
         "Source/**.h", 

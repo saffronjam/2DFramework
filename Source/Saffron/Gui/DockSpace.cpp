@@ -9,8 +9,8 @@ void DockSpace::Begin() const
 {
 	auto* viewport = ImGui::GetMainViewport();
 
-	ImGui::SetNextWindowPos(viewport->GetWorkPos());
-	ImGui::SetNextWindowSize(viewport->GetWorkSize());
+	ImGui::SetNextWindowPos(viewport->WorkPos);
+	ImGui::SetNextWindowSize(viewport->WorkSize);
 	ImGui::SetNextWindowViewport(viewport->ID);
 
 	ImGuiWindowFlags hostWindowFlags = 0;
