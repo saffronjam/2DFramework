@@ -5,6 +5,7 @@ OutputDirectory = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}/"
 group "ThirdParty"
 -- External modules
 ImGui = require("ThirdParty.imgui.premake5")
+Glfw = require("ThirdParty.glfw.premake5")
 --
 group ""
 
@@ -20,11 +21,13 @@ module.Project = "SaffronEngine2D"
 module.Include = {
     BasePath .. "Source/",
     ImGui.Include,
+    Glfw.Include,
     GetIncludePath("Box2D"),
     GetIncludePath("Glad"),
     GetIncludePath("jcv"),
     GetIncludePath("SFML"),
-    GetIncludePath("spdlog")
+    GetIncludePath("spdlog"),
+    GetIncludePath("stb")
 }
 module.PchHeader = "SaffronPCH.h"
 module.PchSource = BasePath .. "Source/SaffronPCH.cpp"
@@ -67,6 +70,7 @@ project (module.Project)
 
     links {
         ImGui.Project,
+        Glfw.Project,
         "Box2D.lib",
         "Glad.lib",
         "sfml-audio-d.lib",
